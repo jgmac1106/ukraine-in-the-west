@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+  
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
     <title>Hello World!</title>
 
     <!-- The website stylesheet -->
@@ -24,49 +16,76 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+   <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
-        </div>
-      </div>
+<header class="masthead">
+  <div class="logo">Help Ukraine in the West</div>
+  <img style="width:50%;margin:auto;" src="https://longthoughts.jgregorymcverry.com/lib/exe/fetch.php?cache=&w=900&h=600&tok=f82558&media=358108909_259291083552385_8840317040562118687_n.jpg">
+  <h2 class="site-title">Life Saving Medical Supplies</h2>
+  <img src="https://longthoughts.jgregorymcverry.com/lib/exe/fetch.php?cache=&w=900&h=678&tok=464581&media=screenshot_20230811-163604_facebook.png">
+</header><!-- .masthead -->
+
+<main id="content" class="main-area">
+  <section class="splash grid">
+    <div class="splash-content">
+      <h2 class="content-title">Non-profit aid to our Ukrainian Brethren!</h2>
+      <div class="splash-text">
+        <p>Ukraine Aid in the West is a collaborative project
+between Trygg i Beredskap and a number of companies and private individuals in Western Sweden.
+In this way, we have a non-profit association behind us, while the focus is on gathering committed people through the Facebook group. Here we support each other through advice, tips, planning and implementation. We put aside political affiliations and rivalries and work towards a common goal.</p>
+      </div><!-- .splash-text -->
+    </div><!-- .splash-content -->
+  </section><!-- .splash -->
+
+  <section class="buckets grid">
+    <ul>
+      <li>
+        <img src="https://longthoughts.jgregorymcverry.com/lib/exe/fetch.php?media=cat7.png" alt="">
+        <div class="bucket">
+          <h3 class="bucket-title">Save Ukrainian Lives</h3>
+          <p>A Tourniquets mean life or death on the battlfield. Only the highest quality Cat 7 Medical grade work. We scour Sweden for supplies and drive them to Ukraine</p>
+        </div><!-- .bucket -->
+      </li>
+      <li>
+        <img src="https://longthoughts.jgregorymcverry.com/lib/exe/fetch.php?cache=&w=900&h=675&tok=141d4d&media=fb_img_1691764426927.jpg" alt="">
+        <div class="bucket">
+          <h3 class="bucket-title">Donate Trucks</h3>
+          <p>Through your genorousity we can often can not only Stuff the Truck full of medical supplies but we leave the vehicle behind. Trucks to help serve as battlefield ambulances</p>
+        </div><!-- .bucket -->
+      </li>
+      <li>
+        <img src="https://longthoughts.jgregorymcverry.com/lib/exe/fetch.php?media=criticalsupplies.png" alt="">
+        <div class="bucket">
+          <h3 class="bucket-title">Critical Supplies</h3>
+          <p>As we deliver medical supplies we also learn what gear they need. This can include spare parts to a truck, motherboards, or electrical cabling. Your donation helps a frontline unit.</p>
+        </div><!-- .bucket -->
+      </li>
+    </ul>
+  </section><!-- .buckets -->
+
+  <section class="more grid">
+    <div class="more-content">
+      <h2 class="content-title">Donate Today</h2>
+      <p>Help Ukraine in the West would not deliver our life saving supplies and trucks without you. Each donation you give saves lives. We get our gear direct from suppliers to the front lines.</p>
+    <img src="https://cdn.glitch.global/a42bf460-b554-429f-9827-f0b627dc77d5/Screen%20Shot%202023-08-11%20at%207.17.48%20PM.png?v=1691796225772">
+    </div><!-- .more-content -->
+  </section><!-- .more -->
+
+  <section class="twins grid">
+    <div class="twin">
+      <h2 class="content-title">Swish: 123 374 40 67</h2>
+   
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
+    <div class="twin">
+      <h2 class="content-title">Plusgiro: 93 71 29-5</h2>
+    
+    </div>
+  </section><!-- .twins -->
+</main>
+
+<footer class="colophon grid">
+  <aside>Content, layout, design: <a href="https://nafo-ofan.org/" target="_blank" rel="nofollow">NAFO</a>.</aside>
+  <aside>All photos:Help Ukraine in the west.</aside>
+</footer>
   </body>
 </html>
