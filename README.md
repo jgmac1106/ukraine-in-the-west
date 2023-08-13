@@ -6,5 +6,5 @@ This the official website of Ukrain inthe West, A Swedish charity delivering med
 
 #
 
-This template was orginally designed by 
+This template was orginally designed by Morten Rand-Hendriksen
 
